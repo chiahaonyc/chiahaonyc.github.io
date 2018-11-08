@@ -1,0 +1,379 @@
+body    {
+    margin:0px;
+}
+
+
+.nav    {
+    margin:0px;
+    display:flex;
+    padding-left:7%;
+    padding-top:4%;
+    padding-bottom:5%;
+    background-color:gray;
+}
+
+
+.nav li {
+    list-style-type:none;
+}
+
+
+.nav .one   {
+    margin-left:5%;
+    margin-right:7%;
+}
+
+.nav .three    {
+    margin-left:7%;
+}
+
+.nav a  {
+    text-decoration:none;
+    color:ghostwhite;
+}
+
+.nav a:hover    {
+    text-decoration-line:underline;
+}
+
+
+
+
+/*hero*/
+
+.hero   {
+    padding-left:11%;
+    padding-right:45%;
+    padding-top:5%;
+    text-align:left;
+    background-color:gray;
+    padding-bottom:15%;
+}
+
+.hero .name {
+    font-family:'Quicksand';
+    color:darkorange;
+    font-weight:100;
+}
+
+.hero p {
+    color:ghostwhite;
+    font-family:serif;
+}
+
+.foot   {
+    display:flex;
+    padding-bottom:1%
+}
+
+.foot .followcc {
+    margin-left:11%;
+    
+}
+
+.foot .listsec   {
+    display:flex;
+    padding-top:5px;
+    padding-left:3px;
+    padding-right:5px;
+    width:6%;
+    
+}
+
+.listsec li {
+    list-style-type:none;
+}
+
+
+
+.listsec .igcc  {
+    width:20px;
+    margin-left:1%;
+}
+
+.listsec .twtcc {
+    width:23px;
+}
+
+.listsec .snapcc {
+    width:18px;
+}
+
+.foot .headingcc    {
+    display:flex;
+    width:40%;
+    margin-left:3%;
+}
+
+.headingcc h4   {
+    flex:1;
+    text-align:center;
+    font-family:serif;
+}
+
+
+
+
+/*apply page style*/
+
+.parenttagcc    {
+    display:flex;
+}
+
+.parenttagcc .titlecc   {
+    margin-top:0%;
+    margin-bottom:0%;
+    background-color:black;
+    padding-top:3%;
+    padding-left:2%;
+    width:9%;
+}
+
+.titlecc  a  {
+    color:darkorange;
+    font-family:'Quicksand';
+    font-weight:100;
+    text-decoration:none;
+}
+
+.titlecc a:hover    {
+    font-weight:500;
+    text-decoration-line:underline;
+    font-size:105%;
+}
+
+.navi    {
+    margin:0px;
+    display:flex;
+    padding-left:1%;
+    padding-top:4%;
+    padding-bottom:5%;
+    background-color:black;
+    width:100%;
+}
+
+
+.navi li {
+    list-style-type:none;
+}
+
+
+.navi .un   {
+    margin-left:5%;
+    margin-right:7%;
+}
+
+.navi .trois   {
+    margin-left:7%;
+}
+
+.navi a  {
+    text-decoration:none;
+    color:ghostwhite;
+}
+
+.navi a:hover    {
+    text-decoration-line:underline;
+}
+
+
+.laptopscc  {
+    width:100%;
+    height:491px;
+    margin-bottom:0%;
+}
+
+.rulescc    {
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    text-align:center;
+    margin-top:2%;
+    font-family:serif;
+    background-color:black;
+    color:ghostwhite;
+    
+}
+
+.bodycc .button {
+    text-align: center;
+    margin-bottom:3%;
+
+
+}
+
+.button .pretty {
+    background-color:darkorange;
+    width:20%;
+    height:25px;
+    margin-bottom:8px;
+    border:1px solid black;
+    font-family:'Quicksand';
+    font-size:112%
+}
+
+
+
+.bodycc .submit   {
+    padding-left:12%;
+    padding-right:12%;
+    text-align:center;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+
+.listnumber ol  {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    font-family:serif;
+    background-color:gray;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+
+.listnumber {
+    padding-left:28%;
+    padding-right:28%;
+    padding-bottom:2%;
+    padding-top:2%;
+}
+
+
+/*mentors page*/
+
+
+
+
+.middle .announce   {
+    text-align:center;
+    margin-top:5%;
+}
+
+.middle p  {
+    text-align:center;
+    font-family:serif;
+    font-size:20px;
+    margin-bottom:90px;
+    padding-left:25%;
+    padding-right:25%;
+}
+
+
+/*nicole*/
+
+.heroic {
+    display:flex;
+}
+
+
+.heroic .nicpic {
+    width:38%;
+    height:550px;
+    padding-right:1%;
+}
+
+.crew .words    {
+    margin-left:4%;
+    margin-right:4%;
+    padding-top:3%;
+    padding-bottom:1%;
+    font-family: 'PT+Sans';
+    color:black;
+    text-align:left;
+    font-size:25px;
+    font-style:normal;
+}
+
+
+
+.crew .nicole, .jobtitle   {
+    margin-left:4%;
+}
+
+.jobtitle   {
+    color:black;
+}
+
+
+.jobtitle a {
+    text-decoration:none;
+    color:darkorange;
+    font-family:'Quicksand';
+}
+
+
+/*thannguyen*/
+
+.second {
+    display:flex;
+    margin-top:10%;
+}
+
+.second .coderboy   {
+    width:48%;
+    height:480px;
+    padding-left:1%;
+}
+
+.coder .quoter  {
+    font-size:25px;
+    padding-top:3%;
+    margin-left:4%;
+    margin-right:4%;
+}
+
+.coder .than, .jobtitlec  {
+    margin-left:4%;
+}
+
+.jobtitlec a  {
+    text-decoration:none;
+    color:darkorange;
+    font-family:'Quicksand';
+}
+
+
+/*cristina*/
+
+.third  {
+    display:flex;
+    margin-top:10%;
+    margin-bottom:8%;
+    
+}
+
+.third .codergirl {
+    width:49%;
+    height:684px;
+    margin-right:0px;
+    padding-right:1%;
+}
+
+
+.codely .phrase {
+    font-size:25px;
+    padding-top:3%;
+    margin-left:4%;
+    margin-right:4%;
+    
+}
+
+.codely .cristina, .jobtitleb {
+    margin-left:4%;
+}
+
+.jobtitleb a  {
+    text-decoration:none;
+    color:darkorange;
+    font-family:'Quicksand';
+}
+
+
+.foot   {
+    border-top:1px solid black;
+}
+
+
+
+
